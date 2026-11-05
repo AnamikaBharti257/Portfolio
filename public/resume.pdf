@@ -1,0 +1,135 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5399 >>
+stream
+0.94 0.96 0.98 rg 0 750 595.28 91.89 re f
+0.07 0.10 0.20 rg
+BT /F2 22 Tf 40 805 Td (ANAMIKA BHARTI) Tj ET
+0.20 0.38 0.68 rg
+BT /F2 11 Tf 40 788 Td (Full Stack Developer | MERN Stack Developer) Tj ET
+0.30 0.35 0.42 rg
+BT /F1 8.5 Tf 40 768 Td (Bengaluru, Karnataka, India | +91 6207522412 | bhartianamika012@gmail.com | linkedin.com/in/anamika-bharti-12f | github.com/AnamikaBharti257) Tj ET
+0.08 0.22 0.45 rg
+BT /F2 11 Tf 40 718 Td (PROFESSIONAL SUMMARY) Tj ET
+1 w 0.25 0.45 0.72 RG 40 714 m 555 714 l S
+0.20 0.20 0.20 rg
+BT /F1 9 Tf 40 702 Td (Full Stack Developer specializing in the MERN stack with practical experience building responsive web applications,) Tj ET
+0.20 0.20 0.20 rg
+BT /F1 9 Tf 40 689 Td (RESTful APIs, and secure database solutions. 2026 B.Tech Computer Science graduate from Cambridge Institute of Technology) Tj ET
+0.20 0.20 0.20 rg
+BT /F1 9 Tf 40 676 Td (undergoing software development training at KodNest, Bengaluru. Dedicated to clean architecture and practical solutions.) Tj ET
+0.08 0.22 0.45 rg
+BT /F2 11 Tf 40 646 Td (TRAINING & DEVELOPMENT EXPERIENCE) Tj ET
+1 w 0.25 0.45 0.72 RG 40 642 m 555 642 l S
+0.12 0.12 0.12 rg
+BT /F2 10 Tf 40 630 Td (Software Development Trainee  -  KodNest) Tj ET
+0.35 0.35 0.35 rg
+BT /F1 9 Tf 420 630 Td (Bengaluru, India | 2026 - Present) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 617 Td (• Participating in structured software development training, focusing on Java programming and engineering fundamentals.) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 605 Td (• Solving coding assignments and practicing core object-oriented principles, algorithms, and practical development exercises.) Tj ET
+0.08 0.22 0.45 rg
+BT /F2 11 Tf 40 575 Td (EDUCATION) Tj ET
+1 w 0.25 0.45 0.72 RG 40 571 m 555 571 l S
+0.12 0.12 0.12 rg
+BT /F2 9.5 Tf 40 559 Td (B.Tech in Computer Science and Engineering) Tj ET
+0.35 0.35 0.35 rg
+BT /F1 9 Tf 425 559 Td (2022 - 2026 | CGPA: 8.5) Tj ET
+0.30 0.30 0.30 rg
+BT /F1 8.5 Tf 40 547 Td (Cambridge Institute of Technology, Ranchi, Jharkhand) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9.5 Tf 40 533 Td (Intermediate \(Senior Secondary Education\)) Tj ET
+0.35 0.35 0.35 rg
+BT /F1 9 Tf 455 533 Td (2020 - 2022 | 77%) Tj ET
+0.30 0.30 0.30 rg
+BT /F1 8.5 Tf 40 521 Td (Loyola Convent School, Ranchi, Jharkhand) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9.5 Tf 40 507 Td (Matriculation \(Secondary Education\)) Tj ET
+0.35 0.35 0.35 rg
+BT /F1 9 Tf 455 507 Td (2019 - 2020 | 89%) Tj ET
+0.30 0.30 0.30 rg
+BT /F1 8.5 Tf 40 495 Td (Tata DAV Public School, Ramgarh, Jharkhand) Tj ET
+0.08 0.22 0.45 rg
+BT /F2 11 Tf 40 465 Td (KEY TECHNICAL PROJECTS) Tj ET
+1 w 0.25 0.45 0.72 RG 40 461 m 555 461 l S
+0.10 0.10 0.10 rg
+BT /F2 9.5 Tf 40 449 Td (Campus Recruitment System | MERN Stack \(React, Node, Express, MongoDB, JWT\)) Tj ET
+0.20 0.40 0.70 rg
+BT /F1 8.5 Tf 450 449 Td (Live Demo | GitHub) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 437 Td (• Developed a comprehensive campus placement portal bridging students, college management, and corporate recruiters.) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 426 Td (• Engineered secure JWT authentication with role-based authorization for Student and Company access levels.) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 415 Td (• Built robust REST APIs in Express.js for job postings, student applications, and verified endpoints via Postman.) Tj ET
+0.10 0.10 0.10 rg
+BT /F2 9.5 Tf 40 400 Td (Movie Explorer | React.js, JavaScript, OMDb API, CSS3) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 388 Td (• Built an interactive film discovery application consuming third-party REST APIs with live title search and debounce.) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 377 Td (• Implemented smooth loading states, detailed movie cards, error boundary handling, and responsive layouts.) Tj ET
+0.10 0.10 0.10 rg
+BT /F2 9.5 Tf 40 362 Td (Fake News Detection System | Python, Machine Learning, NLP) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 350 Td (• Developed text classification pipelines implementing Logistic Regression and Naive Bayes algorithms.) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 339 Td (• Conducted text cleaning, tokenization, stop-word removal, TF-IDF vectorization, and confusion matrix analysis.) Tj ET
+0.10 0.10 0.10 rg
+BT /F2 9.5 Tf 40 324 Td (Student Record Management System | Node.js, Express.js, MongoDB, EJS) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 8.5 Tf 50 312 Td (• Developed complete CRUD operations, server-side data pagination, search filters, and Mongoose schemas.) Tj ET
+0.08 0.22 0.45 rg
+BT /F2 11 Tf 40 282 Td (TECHNICAL SKILLS) Tj ET
+1 w 0.25 0.45 0.72 RG 40 278 m 555 278 l S
+0.12 0.12 0.12 rg
+BT /F2 9 Tf 40 266 Td (Frontend Development:) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 9 Tf 150 266 Td (React.js, JavaScript \(ES6+\), HTML5, CSS3, Tailwind CSS) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9 Tf 40 253 Td (Backend Development:) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 9 Tf 150 253 Td (Node.js, Express.js, REST APIs, Java, Python) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9 Tf 40 240 Td (Databases:) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 9 Tf 150 240 Td (MongoDB, MySQL, SQL) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9 Tf 40 227 Td (Developer Tools:) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 9 Tf 150 227 Td (Git, GitHub, VS Code, Postman, Render) Tj ET
+0.12 0.12 0.12 rg
+BT /F2 9 Tf 40 214 Td (Soft Skills:) Tj ET
+0.22 0.22 0.22 rg
+BT /F1 9 Tf 150 214 Td (Problem Solving, Communication, Ownership, Collaboration, Adaptability, Quick Learning) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000005708 00000 n 
+0000005778 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5853
+%%EOF

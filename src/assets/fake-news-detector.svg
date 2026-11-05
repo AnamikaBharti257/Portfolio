@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="fn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="fn-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="green-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" rx="16" fill="url(#fn-bg)" stroke="#1f2937" stroke-width="1.5"/>
+
+  <!-- Window Chrome Header -->
+  <rect width="1200" height="48" rx="16" fill="#111827"/>
+  <rect y="32" width="1200" height="16" fill="#111827"/>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#1f2937" stroke-width="1"/>
+  
+  <circle cx="28" cy="24" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="24" r="6" fill="#f59e0b"/>
+  <circle cx="68" cy="24" r="6" fill="#10b981"/>
+
+  <rect x="360" y="10" width="480" height="28" rx="6" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+  <text x="600" y="28" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">news-detection.anamikabharti.dev [ML Pipeline]</text>
+
+  <!-- Navbar -->
+  <rect x="0" y="49" width="1200" height="64" fill="#030712" fill-opacity="0.9"/>
+  <line x1="0" y1="113" x2="1200" y2="113" stroke="#1f2937" stroke-width="1"/>
+
+  <text x="50" y="88" fill="#f9fafb" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Veritas<tspan fill="#10b981">AI</tspan></text>
+  <text x="160" y="86" fill="#6b7280" font-family="system-ui, sans-serif" font-size="12">Natural Language Processing & Classification Model</text>
+
+  <!-- Top Status Badges -->
+  <rect x="850" y="67" width="130" height="28" rx="6" fill="#1f2937"/>
+  <circle cx="865" cy="81" r="4" fill="#10b981"/>
+  <text x="920" y="85" fill="#d1d5db" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Model: Naive Bayes</text>
+
+  <rect x="995" y="67" width="155" height="28" rx="6" fill="#1f2937"/>
+  <circle cx="1010" cy="81" r="4" fill="#6366f1"/>
+  <text x="1075" y="85" fill="#d1d5db" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Accuracy: 93.8%</text>
+
+  <!-- Main Grid: Left is Input & Analysis, Right is Metrics & Confusion Matrix -->
+  <!-- Left Column -->
+  <g transform="translate(50, 140)">
+    <rect width="680" height="570" rx="12" fill="url(#fn-panel)" stroke="#1f2937" stroke-width="1"/>
+    
+    <text x="24" y="36" fill="#f9fafb" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Article Text Preprocessing & Inference</text>
+    <text x="24" y="58" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Paste article body or headline to evaluate truth probability with TF-IDF Vectorizer</text>
+
+    <!-- Text area mockup -->
+    <rect x="24" y="80" width="632" height="150" rx="8" fill="#030712" stroke="#374151" stroke-width="1"/>
+    <text x="40" y="112" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="13">"Researchers at the Global Climate Observatory announced today a breakthrough in renewable battery</text>
+    <text x="40" y="134" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="13">storage efficiency, publishing peer-reviewed empirical findings in the International Energy Journal..."</text>
+    <text x="40" y="210" fill="#6b7280" font-family="system-ui, sans-serif" font-size="11">Tokens: 38 words | Stop-words removed: 14 | Stemmed terms: 24</text>
+
+    <!-- Predict Buttons & Model Selectors -->
+    <rect x="24" y="246" width="150" height="38" rx="8" fill="#10b981"/>
+    <text x="99" y="270" fill="#022c22" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">⚡ Classify Article</text>
+
+    <rect x="188" y="246" width="130" height="38" rx="8" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="253" y="270" fill="#e5e7eb" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Logistic Regression</text>
+
+    <rect x="330" y="246" width="130" height="38" rx="8" fill="#030712" stroke="#10b981" stroke-width="1.5"/>
+    <text x="395" y="270" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Naive Bayes (Active)</text>
+
+    <!-- Inference Result Box -->
+    <rect x="24" y="306" width="632" height="236" rx="10" fill="#030712" stroke="#10b981" stroke-width="1.2"/>
+    
+    <rect x="44" y="326" width="110" height="28" rx="14" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <circle cx="58" cy="340" r="4" fill="#34d399"/>
+    <text x="105" y="344" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">REAL NEWS</text>
+
+    <text x="170" y="345" fill="#f9fafb" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Confidence Score: 96.4%</text>
+
+    <!-- Probability Bar -->
+    <text x="44" y="385" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Credibility Probability Distribution</text>
+    
+    <rect x="44" y="398" width="592" height="14" rx="7" fill="#1f2937"/>
+    <rect x="44" y="398" width="568" height="14" rx="7" fill="url(#green-glow)"/>
+    <text x="44" y="430" fill="#10b981" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Likely Genuine (96.4%)</text>
+    <text x="636" y="430" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">Sensationalist / Fake (3.6%)</text>
+
+    <!-- Top Key Features / N-Grams -->
+    <text x="44" y="465" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">Highest Weighted TF-IDF Features</text>
+    
+    <rect x="44" y="480" width="115" height="26" rx="6" fill="#1e293b"/>
+    <text x="101" y="497" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">peer-reviewed (+2.8)</text>
+
+    <rect x="167" y="480" width="125" height="26" rx="6" fill="#1e293b"/>
+    <text x="229" y="497" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">empirical findings (+2.4)</text>
+
+    <rect x="300" y="480" width="105" height="26" rx="6" fill="#1e293b"/>
+    <text x="352" y="497" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">observatory (+1.9)</text>
+
+    <rect x="413" y="480" width="95" height="26" rx="6" fill="#1e293b"/>
+    <text x="460" y="497" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">journal (+1.7)</text>
+  </g>
+
+  <!-- Right Column: Metrics & Confusion Matrix -->
+  <g transform="translate(760, 140)">
+    <rect width="390" height="570" rx="12" fill="url(#fn-panel)" stroke="#1f2937" stroke-width="1"/>
+
+    <text x="24" y="36" fill="#f9fafb" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Model Evaluation Metrics</text>
+    <text x="24" y="58" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12">K-Fold cross validated test metrics</text>
+
+    <!-- Stat 1 -->
+    <rect x="24" y="80" width="160" height="75" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+    <text x="40" y="105" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11">PRECISION</text>
+    <text x="40" y="138" fill="#10b981" font-family="system-ui, sans-serif" font-size="24" font-weight="800">94.2%</text>
+
+    <!-- Stat 2 -->
+    <rect x="206" y="80" width="160" height="75" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+    <text x="222" y="105" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11">RECALL</text>
+    <text x="222" y="138" fill="#6366f1" font-family="system-ui, sans-serif" font-size="24" font-weight="800">92.7%</text>
+
+    <!-- Stat 3 -->
+    <rect x="24" y="167" width="160" height="75" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+    <text x="40" y="192" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11">F1-SCORE</text>
+    <text x="40" y="225" fill="#06b6d4" font-family="system-ui, sans-serif" font-size="24" font-weight="800">93.4%</text>
+
+    <!-- Stat 4 -->
+    <rect x="206" y="167" width="160" height="75" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+    <text x="222" y="192" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11">ROC-AUC</text>
+    <text x="222" y="225" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="24" font-weight="800">0.971</text>
+
+    <!-- Confusion Matrix Card -->
+    <rect x="24" y="260" width="342" height="282" rx="10" fill="#030712" stroke="#1f2937" stroke-width="1"/>
+    <text x="44" y="292" fill="#f9fafb" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Confusion Matrix</text>
+    <text x="44" y="312" fill="#6b7280" font-family="system-ui, sans-serif" font-size="11">Actual vs Predicted Distribution</text>
+
+    <!-- Matrix Grid -->
+    <g transform="translate(70, 335)">
+      <!-- Labels -->
+      <text x="90" y="0" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">PRED: REAL</text>
+      <text x="180" y="0" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">PRED: FAKE</text>
+      
+      <text x="0" y="55" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" transform="rotate(-90 0 55)">TRUE REAL</text>
+      <text x="0" y="135" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" transform="rotate(-90 0 135)">TRUE FAKE</text>
+
+      <!-- Cell 1: True Real (High) -->
+      <rect x="50" y="15" width="80" height="70" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+      <text x="90" y="52" fill="#34d399" font-family="system-ui, sans-serif" font-size="18" font-weight="800" text-anchor="middle">1,420</text>
+      <text x="90" y="70" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">True Positive</text>
+
+      <!-- Cell 2: False Fake (Low) -->
+      <rect x="140" y="15" width="80" height="70" rx="6" fill="#1f2937"/>
+      <text x="180" y="52" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">88</text>
+      <text x="180" y="70" fill="#6b7280" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">False Negative</text>
+
+      <!-- Cell 3: False Real (Low) -->
+      <rect x="50" y="95" width="80" height="70" rx="6" fill="#1f2937"/>
+      <text x="90" y="132" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">104</text>
+      <text x="90" y="150" fill="#6b7280" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">False Positive</text>
+
+      <!-- Cell 4: True Fake (High) -->
+      <rect x="140" y="95" width="80" height="70" rx="6" fill="#4c1d95" stroke="#8b5cf6" stroke-width="1.5"/>
+      <text x="180" y="132" fill="#c084fc" font-family="system-ui, sans-serif" font-size="18" font-weight="800" text-anchor="middle">1,388</text>
+      <text x="180" y="150" fill="#e9d5ff" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">True Negative</text>
+    </g>
+  </g>
+</svg>
+
